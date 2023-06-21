@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 720px;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, rgb(255,244,244), rgb(255,255,255));
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+
+
+.sub-nav {
+  width: 60%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between; 
+  transition: color 0.4s linear;
+
+}
+
+.sub-nav h3 a:hover  {
+  color: #FFEEB3;
+  
+}
+
+h3 {
+  font-size: 25px;
+  padding: 3px;
+}
+
+h3 a {
+  text-transform: uppercase;
+  text-decoration: none;  
+  color: rgb(96,108,93)
+}
+
+
+main {
+  width: 100%;
+  background: linear-gradient(to top left,rgb(241,195,118),rgb(255,244,244),rgb(255,244,244));
+}
+.about-me {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 30%;
+  height: 320px;
+  margin: 10px;
+  border-radius: 150px;
+  opacity: 0.7;
+
+}
+#itsme {
+  margin: 50px;
+  font-size: 20px;
+  color: rgb(96,108,93);
+}
+
+.skill {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to top left, rgb(242,216,216),rgb(255,244,244),rgb(255,244,244));
+}
+
+.skill h2 {
+  margin: 70px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(241,195,118);
+}
+.languages {
+  width: 95%;
+  height: 70px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(241,195,118);
+}
+
+.label {
+  width: 97%;
+  display: flex;
+  justify-content: space-around;
+  color:rgb(235, 157, 22);  
+  text-transform: uppercase;
+}
+
+.projects {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.projects h2 {
+  margin: 60px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(241,195,118);
+}
+
+.details {
+  width: 60%;
+}
+.projects .details h5 {
+  font-size: 25px;
+  color: rgb(96,108,93);
+}
+
+.projects .details p {
+  color: rgb(96,108,93)
+}
+
+.projects .details .doneproj {
+  margin: 2px;
+  width: 80%;
+}
+
+.footer {
+  margin: 40px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.footer .social-med {
+  width: 100%;
+  height: 100px;
+  
+}
+
+.footer .social-med ul{
+  width: 100%;
+  height: 60px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: rgb(241,195,118);
+}
+
+.footer .social-med ul a {
+  padding: 3px;
+  text-decoration: none;
+  color: rgb(241,195,118);
+}
